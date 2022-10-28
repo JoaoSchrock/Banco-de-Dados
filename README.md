@@ -68,7 +68,6 @@ UPDATE pessoa SET funcID = 1 WHERE pessoaid = 1;
 UPDATE pessoa SET funcID = 3 WHERE pessoaid = 1;
 UPDATE pessoa SET funcID = 2 WHERE pessoaid = 2;
 
-
 select pessoa.pessoaNome, funcao.funcao from pessoa join funcao on pessoa.funcID = funcao.funcID;
 
 ~~~
