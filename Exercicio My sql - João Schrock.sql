@@ -1,1 +1,0 @@
-SELECT * FROM normalizacao1.project_employeeno;
